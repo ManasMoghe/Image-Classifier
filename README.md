@@ -15,3 +15,20 @@ Upload any `.jpg`, `.jpeg`, or `.png` image of a cat or dog, and the app will pr
 
 ## 📁 Project Structure
 
+
+---
+
+## 🧠 Model Overview
+
+- **Architecture**: CNN trained on grayscale images resized to 100x100 pixels.
+- **Output**: Binary classification with sigmoid activation (Cat = 0, Dog = 1).
+- **Input Shape**: (100, 100, 1) — single-channel grayscale.
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/cat-vs-dog-classifier.git
+   cd cat-vs-dog-classifier
